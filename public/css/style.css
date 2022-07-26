@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #edf5fe;
     --light-blue: #03a9f4;
-    --dark-blue: #028bca;
+    --dark-blue: #6d9fb6;
   }
 
   body {
@@ -12,10 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333;
+    color: rgb(51, 51, 51);
   }
 
   .logo {
+    
     position: absolute;
     top: 10px;
     left: 10px;
@@ -46,7 +47,7 @@ section.download {
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: rgb(89, 112, 194);
     cursor: pointer;
     transition: all .3s ease-in-out;
   }
