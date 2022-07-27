@@ -13,12 +13,11 @@ const corsOptions = {
     origin : process.env.ALLOWED_CLIENTS.split(',')
 
 }
-app.use(cors(cors(corsOptions)));
+app.use(cors(corsOptions));
 
 
 app.use(express.static('public'));
-console.log();
-app.set()
+
 app.set('view engine', 'ejs');
 console.log(path.join(__dirname,'./views'));
 app.set('views', path.join(__dirname, './views'));
