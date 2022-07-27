@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "node app.js",
+    "serve": "node App.js",
     "dev": "nodemon App.js"
   },
   "keywords": [],
