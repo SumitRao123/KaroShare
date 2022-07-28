@@ -8,11 +8,10 @@ app.use(express.json());
 const connectDb = require("./Config/db.");
 connectDb();
 
-
 const corsOptions = {
-    origin : process.env.ALLOWED_CLIENTS.split(',')
-
-}
+    origin: process.env.ALLOWED_CLIENTS.split(',')
+    // ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:3300']
+  }
 app.use(cors(corsOptions));
 
 
